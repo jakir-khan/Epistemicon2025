@@ -7,6 +7,8 @@
   <title>Epistemicon 2025</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- link for AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Icons & Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,12 +41,11 @@
     </nav>
   </header>
 
-  
 
   <!-- Hero -->
   <section id="home" class="home container">
     <div class="content">
-      <video src="logo video1.mp4" autoplay muted loop playsinline poster="banner-poster.jpg" style="border: none;"
+      <video src="https://res.cloudinary.com/dcmt06mac/video/upload/v1756913687/logo_video1_jy0jpx.mp4" autoplay muted loop playsinline poster="banner-poster.jpg" style="border: none;"
         id="myVideo"></video>
       <div class="ticker" aria-label="Event ticker"><span> your stage, your story, your innovation — this is
           Epistemicon! • your stage, your story, your innovation — this is Epistemicon! • </span></div>
@@ -52,8 +53,6 @@
       <a href="#contact" class="btn">Register</a>
     </div>
   </section>
-
-  <!-- video screen -->
 
   <section class="date" style="margin-top: 2rem;"> 
     <div class="box">
@@ -64,8 +63,7 @@
 
   <!-- Countdown -->
   <section class="countdown-section container" aria-labelledby="countdown-title">
-    <h1 id="countdown-title">⏳ Countdown to Epistemicon 2025 <span
-        style="color: #EE0548; font-weight: 700; font-size: 2rem;"> </span>🎉 </h1>
+    <h1 id="countdown-title">⏳ Countdown to Epistemicon 2025 🎉 </h1>
     <div class="countdown-grid" aria-live="polite" aria-atomic="true">
       <div class="time-box">
         <h2 id="days">00</h2>
@@ -92,13 +90,13 @@
       <p>Epistemicon, hosted by <b> <span style="color: #EE0548;"> Andhra Loyola Institute of Engineering and
             Technology</span></b>, is a dynamic inter-collegiate fest celebrating innovation, creativity, and talent. It
         brings together students from diverse colleges to compete, collaborate, and showcase their skills across
-        technology, arts, science, and literature.</p>
+        technology, adaptability & feasibility.</p>
     </div>
   </section>
 
-  <section class="brochure" style="display: flex; justify-content: center;">
+  <section class="brochure">
     <img src="brochure.jpg" alt="Epistemicon Brochure" class="broch">
-  </section>  
+  </section>
 
   <!-- Steps -->
   <h1>Key Events</h1>
@@ -107,7 +105,7 @@
     <article class="step" data-event="expo">
       <span>01</span>
       <h3>Project Expo</h3>
-      <p>20/09/2025, Saturday, 10:00 am.</p>
+      <p>20/09/2025, Saturday</p>
       <a href="#" class="btn secondary learn-more">Learn more</a>
     </article>
 
@@ -124,6 +122,7 @@
           <li>Registration by 9:30 am</li>
           <li>Prototype setup required by 9:45 am</li>
           <li>Judging panel will visit each stall from 10:15 am</li>
+          <li>The final results will be determined solely by the jury’s decision.</li>
         </ul>
         </p>
       </div>
@@ -132,7 +131,7 @@
     <article class="step" data-event="paper">
       <span>02</span>
       <h3>Paper Presentation</h3>
-      <p>20/09/2025, Saturday, 1:00 pm.</p>
+      <p>20/09/2025, Saturday</p>
       <a href="#" class="btn secondary learn-more">Learn more</a>
     </article>
 
@@ -145,9 +144,10 @@
           Participants present their research papers on various topics.
           <br><br>Protocols:
         <ul>
-          <li>Submit abstract by 18/09/2025</li>
+          <li>Submit abstract by 18/09/2025 to respective department emails mentioned in the brochure</li>
           <li>Presentation time limit: 8 minutes + 2 minutes for Evaluation.</li>
           <li>Use of multimedia presentations allowed</li>
+          <li>The final results will be determined solely by the jury’s decision.</li>
         </ul>
         </p>
       </div>
@@ -156,7 +156,7 @@
     <article class="step" data-event="poster">
       <span>03</span>
       <h3>Poster Presentation</h3>
-      <p>20/09/2025, Saturday, 2:00 pm.</p>
+      <p>20/09/2025, Saturday</p>
       <a href="#" class="btn secondary learn-more">Learn more</a>
     </article>
 
@@ -171,7 +171,7 @@
         <ul>
           <li>Poster size max 24"x36"</li>
           <li>Posters must be displayed by 1:45 pm</li>
-          <li>Judging criteria includes creativity and clarity</li>
+          <li>Judging criteria includes application of latest technology, adaptability, feasibility, creativity</li>
         </ul>
         </p>
       </div>
@@ -180,7 +180,7 @@
     <article class="step" data-event="quiz">
       <span>04</span>
       <h3>Technical Quiz</h3>
-      <p>20/09/2025, Saturday, 4:00 pm.</p>
+      <p>20/09/2025, Saturday</p>
       <a href="#" class="btn secondary learn-more">Learn more</a>
     </article>
 
@@ -194,7 +194,7 @@
           <br><br>Protocols:
         <ul>
           <li>Teams of 2 participants</li>
-          <li>Registration closes by 19/08/2025</li>
+          <!-- <li>Registration closes by 19/08/2025</li> -->
           <li>Quiz duration: 60 minutes</li>
           <li>Topics include technology, innovation, and general science</li>
           <li>Use of electronic devices is not permitted during the quiz</li>
@@ -204,26 +204,26 @@
     </div>
 
 
-    <article class="step" data-event="quiz">
+    <article class="step" data-event="spot">
       <span>05</span>
       <h3>Spot Events</h3>
       <p>20/09/2025, Saturday.</p>
       <a href="#" class="btn secondary learn-more">Learn more</a>
     </article>
 
-    <div class="popup-card" id="popup-quiz" role="dialog" aria-modal="true" aria-labelledby="popup-quiz-title"
+    <div class="popup-card" id="popup-spot" role="dialog" aria-modal="true" aria-labelledby="popup-spot-title"
       tabindex="-1">
       <div class="popup-content">
         <button class="close-popup" aria-label="Close">&times;</button>
-        <h2 id="popup-quiz-title">Technical Quiz - Details</h2>
+        <h2 id="popup-spot-title">Spot Events - Details</h2>
         <p>
-          Test your knowledge and quick thinking in this exciting quiz competition!
+          Spot events are on-the-spot competitions designed to test creativity, presence of mind, and fun engagement.
           <br><br>Protocols:
         <ul>
           <li>Teams of 2 participants</li>
-          <li>Registration closes by 19/08/2025</li>
-          <li>Quiz duration: 60 minutes</li>
-          <li>Topics include technology, innovation, and general science</li>
+          <li>Spot Registration</li>
+          <!-- <li>Quiz duration: 60 minutes</li> -->
+          <li>On-the-spot competitions</li>
           <li>Use of electronic devices is not permitted during the quiz</li>
         </ul>
         </p>
@@ -262,17 +262,79 @@
     <img id="lightbox-img" src="" alt="Enlarged view">
   </div>
 
-
+  <!-- video section -->
   <section id="promo-video" class="container my-5">
-    <h2 class="text-center mb-4">🎬 Epistemicon 2025 – Promo Video</h2>
-    <div class="ratio ratio-16x9">
-      <video id="eventVideo" muted preload="metadata" controls poster="banner-poster.jpg">
-        <source src="epistemicon-2k25.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="heading">
+      <h2 class="heading">ALIET – Power Moments on Screen⚡</h2>
+    </div>
+    <p class="text-center text-muted mb-4"> Experience the spirit of ALIET — inspiring journeys, empowering voices, and
+      unforgettable moments captured in every frame. 🌟
+    </p>
+
+    <!-- Video Gallery -->
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
+      <!-- Video Card -->
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb ml-2" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756911137/epistemicon-2k25_doeqgf.mp4">
+          <img src="17.jpeg" class="card-img-top rounded-top" alt="Promo Video 1">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">Highlights of Epistemicon-2k24</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756911137/epistemicon-2k25_doeqgf.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756913687/logo_video1_jy0jpx.mp4">
+          <img src="event_logo1.png" class="card-img-top rounded-top" alt="Aftermovie">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">Logo Video</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756913687/logo_video1_jy0jpx.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756910896/version1_yjbrso.mp4">
+          <img src="3v.jpeg" class="card-img-top rounded-top" alt="Teaser">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">✨ALIET – Empowering Young Minds, Shaping Futures</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756910896/version1_yjbrso.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756909186/4v_1_tl9jux.mp4">
+          <img src="p4.jpeg" class="card-img-top rounded-top" alt="Teaser">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">Faculty Exchange Program</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756909186/4v_1_tl9jux.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+
     </div>
   </section>
 
+  <!-- Modal -->
+  <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark">
+        <div class="modal-body p-0">
+          <video id="modalVideo" controls autoplay class="w-100 rounded">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of video section -->
 
   <!-- Location -->
   <section class="location" id="location">
@@ -330,7 +392,7 @@
     <form action="" method="post" class="contact-form" name="contact-form">
       <div class="inputRow">
         <input type="text" name="Name" placeholder="Your name" autocomplete="name" required>
-        <input type="number" name="Number" placeholder="Your number" autocomplete="tel">
+        <input type="number" name="Number" placeholder="Mobile number" autocomplete="tel">
       </div>
 
       <div class="inputRow">
@@ -351,11 +413,20 @@
         </select>
       </div>
 
+        <!-- <select name="event" id="eventdd">
+          <option value="Project Expo">--Select Event you want to participate--</option>
+          <option value="Project Expo">Project Expo</option>
+          <option value="Paper Presentation">Paper Presentation</option>
+          <option value="Poster Presentation">Poster Presentation</option>
+          <option value="Technical Quiz">Technical Quiz</option>
+        </select>
+      </div> -->
+
         <div class="events">
           <div class="heading">
             <h3>Select Events you want to participate</h3>
           </div>
-          <div class="events1" style="margin-left: 2rem;   text-align: left;">
+          <div class="events1" style="margin-left: 1rem; text-align: left;">
             <label><input type="checkbox" name="event[]" value="Project Expo" style="width: auto;"> Project
               Expo</label><br>
             <label><input type="checkbox" name="event[]" value="Paper Presentation" style="width: auto;"> Paper
@@ -367,6 +438,10 @@
             <label><input type="checkbox" name="event[]" value="Spot Events" style="width: auto;"> Spot Events</label><br>
           </div>
         </div>
+
+        <!-- <div class="inputRow">
+        <input type="text" name="Transaction_ID" placeholder="Your Transaction ID" required>
+      </div> -->
 
         <button class="btn" type="submit">Register</button>
     </form>
@@ -381,18 +456,22 @@
         <h2>Epistemicon-2K25</h2>
       </div>
 
-      <div class="footer-social">
+      <div class="footer-logo">
+        <h2> <a href="https://www.aliet.ac.in/" target="_blank">ALIET</a> </h2>
+      </div>
+
+      <!-- <div class="footer-social">
         <a href="https://www.facebook.com/share/1Gdweyrife/" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/aliet_cse_connect/?igsh=YmVscXAwdTFtOTZ2#" target="_blank"><i
             class="fab fa-instagram"></i></a>
         <a href="https://www.youtube.com/@alietcseofficial" target="_blank"><i class="fab fa-youtube"></i></a>
         <a href="https://www.linkedin.com/posts/aliet-cse-network_epistemicon2k24-aliet-cse-activity-7367381868054237185-Lc7E?utm_source=share&utm_medium=member_android&rcm=ACoAAD12y6EBCLhllJXZ8mEBTnKJCtYcOOeAqZQ"
           target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      </div>
+      </div> -->
 
       <div class="footer-info">
         <p>&copy; 2025 Epistemicon | All rights reserved</p>
-        <!-- ~  !1111 11                                                                                                                              11  a             <p>Developed by: Jakir, Chaitanya, Ahmad Javed</p> -->
+        <p>Developed by: Department of CSE</p>
         <p> <a href="http://aliet.ac.in/" target="_blank"> <i class="fas fa-map-marker-alt"></i>Andhra Loyola Institute
             of Engineering & Technology,Vijayawada,Andhra
             Pradesh India </a></p>
@@ -401,8 +480,21 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,   // animation speed
+      easing: 'ease-in-out',
+      once: true       // animate only once
+    });
+  </script>
+
+  <!-- Bootstrap Bundle with Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- script for custom js -->
   <script>
 
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyCaDB9etpM6QZ3c6X-noSCIRJOZXlfJv-OY9PtS-rJ21YvxRKyhtZEGUTuLXcUslRu/exec'
@@ -567,9 +659,6 @@
 
   </script>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 
 </html>
